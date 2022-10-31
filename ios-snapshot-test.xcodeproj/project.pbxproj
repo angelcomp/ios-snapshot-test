@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4CCD4F303A59E636D0F6819E /* Pods_ios_snapshot_test_ios_snapshot_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C10FB41DD5B72FE27DF2B0 /* Pods_ios_snapshot_test_ios_snapshot_testUITests.framework */; };
 		7212E2951EC77FE77E3999F4 /* Pods_ios_snapshot_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700A472ABD44F969358DFA80 /* Pods_ios_snapshot_test.framework */; };
+		893DDE312910585B009B4407 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893DDE302910585B009B4407 /* ViewControllerTests.swift */; };
 		898F9415291054FE00BF9EAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898F9414291054FE00BF9EAD /* AppDelegate.swift */; };
 		898F9417291054FE00BF9EAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898F9416291054FE00BF9EAD /* SceneDelegate.swift */; };
 		898F9419291054FE00BF9EAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898F9418291054FE00BF9EAD /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 		2C3A6A0F428DBE80C4C1043C /* Pods-ios-snapshot-testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-snapshot-testTests.debug.xcconfig"; path = "Target Support Files/Pods-ios-snapshot-testTests/Pods-ios-snapshot-testTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6F116C6AF215C3948A39315A /* Pods-ios-snapshot-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-snapshot-test.debug.xcconfig"; path = "Target Support Files/Pods-ios-snapshot-test/Pods-ios-snapshot-test.debug.xcconfig"; sourceTree = "<group>"; };
 		700A472ABD44F969358DFA80 /* Pods_ios_snapshot_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_snapshot_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		893DDE302910585B009B4407 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		898F9411291054FE00BF9EAD /* ios-snapshot-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-snapshot-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		898F9414291054FE00BF9EAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		898F9416291054FE00BF9EAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				898F942B2910550100BF9EAD /* ios_snapshot_testTests.swift */,
+				893DDE302910585B009B4407 /* ViewControllerTests.swift */,
 			);
 			path = "ios-snapshot-testTests";
 			sourceTree = "<group>";
@@ -164,7 +167,6 @@
 				2C3A6A0F428DBE80C4C1043C /* Pods-ios-snapshot-testTests.debug.xcconfig */,
 				E429193E0E382BF77655F3B8 /* Pods-ios-snapshot-testTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -399,6 +401,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				893DDE312910585B009B4407 /* ViewControllerTests.swift in Sources */,
 				898F942C2910550100BF9EAD /* ios_snapshot_testTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
