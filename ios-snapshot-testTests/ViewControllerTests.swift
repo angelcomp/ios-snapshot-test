@@ -14,8 +14,7 @@ final class ViewControllerTests: XCTestCase {
     var sut: ViewController!
     
     override func setUpWithError() throws {
-        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-        sut = storyBoard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+        sut = ViewController.instantiate(storyBoardName: "Main")
     }
 
     override func tearDownWithError() throws {
@@ -23,6 +22,7 @@ final class ViewControllerTests: XCTestCase {
     }
 
     func testDefaultState() {
+        //use "record: true" as parameter to record new snapshot
         assertSnapshot(matching: sut, as: .image)
     }
     
